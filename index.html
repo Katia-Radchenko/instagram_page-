@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Подключение SVG-спрайта (если он во внешнем файле) -->
+    <!-- Обычно размещают в начале body -->
+    <object
+      type="image/svg+xml"
+      data="images/symbol-defs.svg"
+      <!-- style="display: none" -->
+    ></object>
+
+    <header>
+      <nav>
+        <ul>
+          <li>home</li>
+          <li>about us</li>
+          <li>our journal</li>
+          <li>project</li>
+          <li>news</li>
+          <li>features</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero"></section>
+      <section>
+        <h2>-our Recent posts</h2>
+        <ul>
+          <li>
+            <img src="./images/post-img1.jpg" alt="img1" />
+            <h3>Aenean Adipiscing Etiam Vestibulum</h3>
+            <p>Photography, Journal / 9 Comments</p>
+            <p>
+              Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque
+              ornare sem lacinia quam venenatis vestibulum.
+            </p>
+          </li>
+          <li>
+            <img src="./images/post4img2.jpg" alt="img2" />
+            <h3>Aenean Adipiscing Etiam Vestibulum</h3>
+            <p>Photography, Journal / 9 Comments</p>
+            <p>
+              Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque
+              ornare sem lacinia quam venenatis vestibulum.
+            </p>
+          </li>
+          <li>
+            <img src="./images/post1img3.jpg" alt="img3" />
+            <h3>Aenean Adipiscing Etiam Vestibulum</h3>
+            <p>Photography, Journal / 9 Comments</p>
+            <p>
+              Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque
+              ornare sem lacinia quam venenatis vestibulum.
+            </p>
+          </li>
+          <li>
+            <img src="./images/post6img4.jpg" alt="img4" />
+            <h3>Aenean Adipiscing Etiam Vestibulum</h3>
+            <p>Photography, Journal / 9 Comments</p>
+            <p>
+              Etiam porta sem malesuada euismod. Aenean leo quam. Pellentesque
+              ornare sem lacinia quam venenatis vestibulum.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <div>
+          <h3>- Latest Instagram Shots</h3>
+          <h3>go to our instagram page -</h3>
+        </div>
+        <ul>
+          <li>
+            <picture>
+              <source
+                media="(max-width:480px)"
+                srcset="images/post-1mobw.webp"
+              />
+              <source
+                media="(max-width:1024px)"
+                srcset="images/post-1tabw.webp"
+              />
+              <img
+                src="images/post-1desk.jpg"
+                srcset="
+                  images/post-1mob.jpg   400w,
+                  images/post-1tab.jpg   800w,
+                  images/post-1desk.jpg 1200w
+                "
+                sizes="(max-width:480px) 90vw, (max-width:1024px) 80vw, 720px"
+                alt="cicle"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+
+          <li>
+            <picture>
+              <source
+                media="(max-width:480px)"
+                srcset="images/post-2mob.webp"
+              />
+              <source
+                media="(max-width:1024px)"
+                srcset="images/post-2tab.webp"
+              />
+              <img
+                src="images/post-2desk.jpg"
+                srcset="
+                  images/post-2mob.jpg   400w,
+                  images/post-2tab.jpg   800w,
+                  images/post-2desk.jpg 1200w
+                "
+                sizes="(max-width:480px) 90vw, (max-width:1024px) 80vw, 720px"
+                alt="desk"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+
+          <li>
+            <picture>
+              <source
+                media="(max-width:480px)"
+                srcset="images/post-3mob.webp"
+              />
+              <source
+                media="(max-width:1024px)"
+                srcset="images/post-3tab.webp"
+              />
+              <img
+                src="images/post-3desk.jpg"
+                srcset="
+                  images/post-3mob.jpg   400w,
+                  images/post-3tab.jpg   800w,
+                  images/post-3desk.jpg 1200w
+                "
+                sizes="(max-width:480px) 90vw, (max-width:1024px) 80vw, 720px"
+                alt="line"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+
+          <li>
+            <picture>
+              <img src="images/post-4desk.jpg" alt="car" loading="lazy" />
+            </picture>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <h4>- get in touch with us -</h4>
+      <p>
+        Maecenas faucibus molli interdum. Cras mattis consectetur purus sitor
+        amet sed donec malesuada ullamcorper odio. Curabitur blandit tempus
+        porttitor vollisky inceptos mollisestor.
+      </p>
+     <ul class="social-icons">
+  <li>
+    <svg class="icon">
+      <use xlink:href="images/symbol-defs.svg#icon-pinterest-icon"></use>
+    </svg>
+  </li>
+  <li>
+    <svg class="icon">
+      <use xlink:href="images/symbol-defs.svg#icon-dribbble-icon"></use>
+    </svg>
+  </li>
+  <li>
+    <svg class="icon">
+      <use xlink:href="images/symbol-defs.svg#icon-twitter-icon"></use>
+    </svg>
+  </li>
+  <li>
+    <svg class="icon">
+      <use xlink:href="images/symbol-defs.svg#icon-facebook-icon"></use>
+    </svg>
+  </li>
+  <li>
+    <svg class="icon">
+      <use xlink:href="images/symbol-defs.svg#icon-rss-icon"></use>
+    </svg>
+  </li>
+</ul>
+    </footer>
+  </body>
+</html>
